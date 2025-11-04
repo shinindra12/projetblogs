@@ -15,7 +15,7 @@ import { Article } from '../../interfaces/article';
 
         <!-- Formulaire de création/modification -->
         <div class="admin-form">
-          <h3>{{ editingArticle ? 'Modifier l\'article' : 'Nouvel article' }}</h3>
+          
 
           <form (ngSubmit)="onSubmit()" #articleForm="ngForm">
             <div class="form-group">
